@@ -42,7 +42,7 @@ return {
       },
     }
 
-    dap.adapters.codelldb = function(callback, config)
+    dap.adapters.codelldb = function(callback)
       -- Find a free port dynamically
       local handle
       local port = 0

@@ -259,7 +259,7 @@ require('lazy').setup({
       },
     },
   },
-
+  { 'nvim-java/nvim-java' },
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
   --
   -- This is often very useful to both group configuration, as well as handle
@@ -579,6 +579,7 @@ require('lazy').setup({
         -- But for many setups, the LSP (`tsserver`) will work just fine
         tsserver = {},
         --
+        jdtls = {},
 
         lua_ls = {
           -- cmd = {...},
